@@ -1,5 +1,10 @@
 def starts_with_a_vowel?(word)
-
+    if word =~ /[aeiou]/ 
+        true
+    elsif
+        false
+    end
+    #the return value when using `=~` is either the string index or `nil`
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
